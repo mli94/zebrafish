@@ -1,0 +1,5 @@
+db_object_id	db_object_symbol	IA_F	IA_P	IA_C	IA_total	max_leaf_IC	most_specific_term
+x1	x1	0	2.0	0	2.0	2.0	GO:9000004 d
+x2	x2	0	2.0	0	2.0	2.0	GO:9000005 e
+x3	x3	0	1.0	0	1.0	1.0	GO:9000002 b
+x4	x4	0	0.0	0	0.0	-0.0	GO:9000003 c

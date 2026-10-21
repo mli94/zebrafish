@@ -1,0 +1,10 @@
+name: goa-stats
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=3.11
+  - pandas
+  - biopython
+  - openpyxl      # 可选：导出 Excel 用
+  - ipykernel     # 可选：在 Jupyter / VS Code 里用这个环境

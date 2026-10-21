@@ -1,0 +1,219 @@
+conda: conda  conda 26.7.2
+2 channel Terms of Service accepted
+Retrieving notices: ...working... done
+Channels:
+ - conda-forge
+ - bioconda
+ - defaults
+Platform: osx-arm64
+Collecting package metadata (repodata.json): ...working... done
+Solving environment: ...working... done
+
+## Package Plan ##
+
+  environment location: /Users/a1/miniconda3/envs/goa-stats
+
+  added / updated specs:
+    - biopython
+    - ipykernel
+    - openpyxl
+    - pandas
+    - python=3.11
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    biopython-1.88             |  py311h5edb25e_1         3.2 MB  conda-forge
+    cpython-3.11.17            |  py311hd8ed1ab_2          48 KB  conda-forge
+    debugpy-1.8.22             |  py311hdc554d9_0         2.6 MB  conda-forge
+    et_xmlfile-2.0.0           |     pyhd8ed1ab_1          21 KB  conda-forge
+    executing-2.3.0            |     pyhd8ed1ab_0          32 KB  conda-forge
+    ipykernel-7.4.0            |     pyhdba7688_0         140 KB  conda-forge
+    jedi-0.20.1                |     pyh5ded981_0         2.6 MB  conda-forge
+    libcxx-23.1.3              |       h55c6f16_0         564 KB  conda-forge
+    libedit-3.1.20260512       | pl5321h26f1114_0         106 KB  conda-forge
+    libsodium-1.0.22           |       h74c22ad_3         244 KB  conda-forge
+    libsqlite-3.54.1           |     h34a968b_100         927 KB  conda-forge
+    llvm-openmp-23.1.3         |       hdb3d66b_1         281 KB  conda-forge
+    nest-asyncio2-1.7.3        |     pyh5ded981_0          16 KB  conda-forge
+    numpy-2.4.6                |  py311hbd1492f_0         7.1 MB  conda-forge
+    openpyxl-3.1.5             |  py311h4be922b_4         481 KB  conda-forge
+    pandas-3.0.6               |np2py311h0e7d951_0        13.7 MB  conda-forge
+    platformdirs-4.13.3        |     pyh5ded981_0          33 KB  conda-forge
+    psutil-7.2.2               |  py311hd322c8c_3         237 KB  conda-forge
+    pure_eval-0.2.4            |     pyhd8ed1ab_0          18 KB  conda-forge
+    python-abi3-3.11           |       ha8785bc_3           8 KB  conda-forge
+    python-gil-3.11.17         |       hd8ed1ab_2          48 KB  conda-forge
+    python_abi-3.11            |          9_cp311           7 KB  conda-forge
+    pyzmq-27.2.0               |  py311h0a890f6_2         363 KB  conda-forge
+    tornado-6.5.10             |  py311h5edb25e_0         894 KB  conda-forge
+    wcwidth-0.9.2              |  py311h1f16292_0         361 KB  conda-forge
+    zeromq-4.3.5               |      h6eb0046_12         238 KB  conda-forge
+    ------------------------------------------------------------
+                                           Total:        34.1 MB
+
+The following NEW packages will be INSTALLED:
+
+  _openmp_mutex      conda-forge/osx-arm64::_openmp_mutex-4.5-8_kmp_llvm 
+  _python_abi3_supp~ conda-forge/noarch::_python_abi3_support-1.0-hd8ed1ab_3 
+  appnope            conda-forge/noarch::appnope-1.0.0-pyhcf101f3_0 
+  asttokens          conda-forge/noarch::asttokens-3.0.2-pyhd8ed1ab_0 
+  biopython          conda-forge/osx-arm64::biopython-1.88-py311h5edb25e_1 
+  bzip2              conda-forge/osx-arm64::bzip2-1.0.8-h4e30115_10 
+  ca-certificates    conda-forge/noarch::ca-certificates-2026.7.22-hbd8a1cb_0 
+  comm               conda-forge/noarch::comm-0.2.3-pyhe01879c_0 
+  cpython            conda-forge/noarch::cpython-3.11.17-py311hd8ed1ab_2 
+  debugpy            conda-forge/osx-arm64::debugpy-1.8.22-py311hdc554d9_0 
+  et_xmlfile         conda-forge/noarch::et_xmlfile-2.0.0-pyhd8ed1ab_1 
+  executing          conda-forge/noarch::executing-2.3.0-pyhd8ed1ab_0 
+  ipykernel          conda-forge/noarch::ipykernel-7.4.0-pyhdba7688_0 
+  ipython            conda-forge/noarch::ipython-9.17.1-pyh53cf698_0 
+  ipython_pygments_~ conda-forge/noarch::ipython_pygments_lexers-1.1.1-pyhd8ed1ab_0 
+  jedi               conda-forge/noarch::jedi-0.20.1-pyh5ded981_0 
+  jupyter_client     conda-forge/noarch::jupyter_client-8.10.0-pyhcf101f3_0 
+  jupyter_core       conda-forge/noarch::jupyter_core-5.9.1-pyhc90fa1f_0 
+  krb5               conda-forge/osx-arm64::krb5-1.22.2-h34f8a20_2 
+  libblas            conda-forge/osx-arm64::libblas-3.11.0-11_h51639a9_openblas 
+  libcblas           conda-forge/osx-arm64::libcblas-3.11.0-11_hb0561ab_openblas 
+  libcxx             conda-forge/osx-arm64::libcxx-23.1.3-h55c6f16_0 
+  libedit            conda-forge/osx-arm64::libedit-3.1.20260512-pl5321h26f1114_0 
+  libexpat           conda-forge/osx-arm64::libexpat-2.8.5-h6111c0a_0 
+  libffi             conda-forge/osx-arm64::libffi-3.7.0-h47dc5ef_1 
+  libgcc             conda-forge/osx-arm64::libgcc-16.2.0-h3cf6597_7 
+  libgfortran        conda-forge/osx-arm64::libgfortran-16.2.0-h07b0088_7 
+  libgfortran5       conda-forge/osx-arm64::libgfortran5-16.2.0-hdb7a957_7 
+  liblapack          conda-forge/osx-arm64::liblapack-3.11.0-11_hd9741b5_openblas 
+  liblzma            conda-forge/osx-arm64::liblzma-5.8.3-h8088a28_1 
+  libopenblas        conda-forge/osx-arm64::libopenblas-0.3.34-openmp_h5e6e99c_1 
+  libpython          conda-forge/osx-arm64::libpython-3.11.17-h0677fcb_2_cpython 
+  libsodium          conda-forge/osx-arm64::libsodium-1.0.22-h74c22ad_3 
+  libsqlite          conda-forge/osx-arm64::libsqlite-3.54.1-h34a968b_100 
+  libzlib            conda-forge/osx-arm64::libzlib-1.3.2-h8088a28_3 
+  llvm-openmp        conda-forge/osx-arm64::llvm-openmp-23.1.3-hdb3d66b_1 
+  matplotlib-inline  conda-forge/noarch::matplotlib-inline-0.2.2-pyhd8ed1ab_0 
+  ncurses            conda-forge/osx-arm64::ncurses-6.6-he64c551_1 
+  nest-asyncio2      conda-forge/noarch::nest-asyncio2-1.7.3-pyh5ded981_0 
+  numpy              conda-forge/osx-arm64::numpy-2.4.6-py311hbd1492f_0 
+  openpyxl           conda-forge/osx-arm64::openpyxl-3.1.5-py311h4be922b_4 
+  openssl            conda-forge/osx-arm64::openssl-3.6.5-h55eecbc_0 
+  packaging          conda-forge/noarch::packaging-26.3-pyhc364b38_0 
+  pandas             conda-forge/osx-arm64::pandas-3.0.6-np2py311h0e7d951_0 
+  parso              conda-forge/noarch::parso-0.8.7-pyhcf101f3_0 
+  pexpect            conda-forge/noarch::pexpect-4.9.0-pyhd8ed1ab_1 
+  pip                conda-forge/noarch::pip-26.2.1-pyh8b19718_0 
+  platformdirs       conda-forge/noarch::platformdirs-4.13.3-pyh5ded981_0 
+  prompt-toolkit     conda-forge/noarch::prompt-toolkit-3.0.53-pyha770c72_0 
+  psutil             conda-forge/osx-arm64::psutil-7.2.2-py311hd322c8c_3 
+  ptyprocess         conda-forge/noarch::ptyprocess-0.7.0-pyhd8ed1ab_1 
+  pure_eval          conda-forge/noarch::pure_eval-0.2.4-pyhd8ed1ab_0 
+  pygments           conda-forge/noarch::pygments-2.21.0-pyhcf101f3_0 
+  python             conda-forge/osx-arm64::python-3.11.17-hd05a0c4_2_cpython 
+  python-abi3        conda-forge/noarch::python-abi3-3.11-ha8785bc_3 
+  python-dateutil    conda-forge/noarch::python-dateutil-2.9.0.post0-pyhe01879c_2 
+  python-gil         conda-forge/noarch::python-gil-3.11.17-hd8ed1ab_2 
+  python_abi         conda-forge/noarch::python_abi-3.11-9_cp311 
+  pyzmq              conda-forge/osx-arm64::pyzmq-27.2.0-py311h0a890f6_2 
+  readline           conda-forge/osx-arm64::readline-8.3-h8b90a29_1 
+  setuptools         conda-forge/noarch::setuptools-84.0.0-pyh332efcf_0 
+  six                conda-forge/noarch::six-1.17.0-pyhe01879c_1 
+  stack_data         conda-forge/noarch::stack_data-0.6.3-pyhd8ed1ab_1 
+  tk                 conda-forge/osx-arm64::tk-8.6.13-hbeba79b_4 
+  tornado            conda-forge/osx-arm64::tornado-6.5.10-py311h5edb25e_0 
+  traitlets          conda-forge/noarch::traitlets-5.16.1-pyhcf101f3_0 
+  typing_extensions  conda-forge/noarch::typing_extensions-4.16.0-pyhcf101f3_0 
+  tzdata             conda-forge/noarch::tzdata-2026c-h151e31d_0 
+  wcwidth            conda-forge/osx-arm64::wcwidth-0.9.2-py311h1f16292_0 
+  wheel              conda-forge/noarch::wheel-0.48.0-pyhd8ed1ab_0 
+  zeromq             conda-forge/osx-arm64::zeromq-4.3.5-h6eb0046_12 
+
+
+
+Downloading and Extracting Packages: ...working... done
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+WARNING conda.conda_pypi.main:notify_externally_managed_future(156): 
+  Did you know? You can install many PyPI packages with conda
+  using the conda-pypi beta. Get started:
+    https://docs.conda.io/projects/conda/en/stable/new-features.html
+
+#
+# To activate this environment, use
+#
+#     $ conda activate goa-stats
+#
+# To deactivate an active environment, use
+#
+#     $ conda deactivate
+
+python 3.11.17 | pandas 3.0.6 | biopython 1.88
+
+===== 只看 EXP =====
+evidence codes: EXP
+注释行数: 110  去重后 (蛋白, GO) 对: 101
+蛋白数: 67  不同 GO term 数: 41
+
+GO term 最多的前 10 个蛋白:
+db_object_id db_object_symbol  n_go_terms  n_F  n_P  n_C
+      Q6IVV8             pkd2           4    0    0    4
+      Q7ZWC3            nudt1           4    4    0    0
+  A0A0R4IY06           plaat1           3    0    0    3
+      A9C3R8           rpe65c           3    1    0    2
+      F1QGH7           ctnnb1           3    0    0    3
+      Q1LX78             cftr           3    1    0    2
+      Q7SZC2            cse1l           3    0    0    3
+      Q9PVF7             jupa           3    0    0    3
+      Q9PVF8           ctnna1           3    0    0    3
+      A2SWM2            spns2           2    0    0    2
+
+被最多蛋白注释的前 10 个 GO term:
+     go_id aspect  n_proteins
+GO:0005737      C          21
+GO:0005886      C          16
+GO:0005634      C          10
+GO:0070161      C           6
+GO:0016324      C           4
+GO:0005576      C           3
+GO:0005789      C           3
+GO:0005743      C           2
+GO:0005765      C           2
+GO:0051499      F           2
+
+已写出 exp_go_per_protein.tsv 和 exp_proteins_per_go.tsv
+
+===== 全部实验证据 =====
+evidence codes: EXP, IDA, IPI, IMP, IGI, IEP
+注释行数: 18878  去重后 (蛋白, GO) 对: 12719
+蛋白数: 3365  不同 GO term 数: 3080
+
+GO term 最多的前 10 个蛋白:
+db_object_id db_object_symbol  n_go_terms  n_F  n_P  n_C
+      Q804S5             mib1          76    3   68    5
+      Q5RH73              smo          64    1   62    1
+      Q92008             shha          58    0   58    0
+      O57341            fgf8a          57    0   55    2
+      Q90275             cdh2          55    1   48    6
+      P79734             tp53          41    3   37    1
+      Q8UVJ6           vangl2          41    1   39    1
+      F1QGL1             chd7          40    1   39    0
+      P48802             fgf3          39    1   36    2
+      Q9I9E1            foxh1          37    6   30    1
+
+被最多蛋白注释的前 10 个 GO term:
+     go_id aspect  n_proteins
+GO:0005515      F         206
+GO:0007507      P         154
+GO:0060271      P         123
+GO:0005737      C         103
+GO:0007420      P         103
+GO:0005634      C          97
+GO:0005886      C          95
+GO:0036269      P          88
+GO:0060041      P          86
+GO:0001947      P          80
+
+已写出 experimental_go_per_protein.tsv 和 experimental_proteins_per_go.tsv
+
+ALL DONE

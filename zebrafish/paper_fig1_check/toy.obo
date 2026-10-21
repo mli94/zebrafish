@@ -1,0 +1,31 @@
+format-version: 1.2
+
+[Term]
+id: GO:0008150
+name: a
+namespace: biological_process
+
+[Term]
+id: GO:9000002
+name: b
+namespace: biological_process
+is_a: GO:0008150 ! a
+
+[Term]
+id: GO:9000003
+name: c
+namespace: biological_process
+is_a: GO:0008150 ! a
+
+[Term]
+id: GO:9000004
+name: d
+namespace: biological_process
+is_a: GO:9000002 ! b
+is_a: GO:9000003 ! c
+
+[Term]
+id: GO:9000005
+name: e
+namespace: biological_process
+is_a: GO:9000003 ! c

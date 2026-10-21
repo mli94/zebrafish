@@ -1,0 +1,6 @@
+go_id	name	aspect	n_parents	n_v	n_all_parents	cond_prob	IA	IA_no_pseudocount
+GO:9000005	e	P	1	1	4	0.25	2.0	2.0
+GO:9000002	b	P	1	2	4	0.5	1.0	1.0
+GO:9000004	d	P	2	1	2	0.5	1.0	1.0
+GO:0008150	a	P	0	4	4	1.0	0.0	0.0
+GO:9000003	c	P	1	4	4	1.0	0.0	0.0

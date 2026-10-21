@@ -1,0 +1,5 @@
+db_object_id	db_object_symbol	i_total	i_F	i_P	i_C	n_leaf_F	n_leaf_P	n_leaf_C	i_F_no_pseudocount	i_P_no_pseudocount	i_C_no_pseudocount
+x1	x1	2.0	0	2.0	0	0	1	0	0	2.0	0
+x2	x2	2.0	0	2.0	0	0	1	0	0	2.0	0
+x3	x3	1.0	0	1.0	0	0	2	0	0	1.0	0
+x4	x4	0.0	0	0.0	0	0	1	0	0	0.0	0
